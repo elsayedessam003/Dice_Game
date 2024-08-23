@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="player player-1">
+            <h2>Player 1</h2>
+            <p class="current-score">0</p>
+            <div class="total-score-box">
+                <h3>Total Score</h3>
+                <p class="total-score">0</p>
+            </div>
+        </div>
+        <div class="dice-controls">
+            <button class="btn new-game">New Game</button>
+            <div class="dice">
+                <img src="./images/dice-1.png" alt="Dice">
+            </div>
+            <button class="btn roll-dice">Roll Dice</button>
+            <button class="btn hold">Hold</button>
+        </div>
+        <div class="player player-2">
+            <h2>Player 2</h2>
+            <p class="current-score">0</p>
+            <div class="total-score-box">
+                <h3>Total Score</h3>
+                <p class="total-score">0</p>
+            </div>
+        </div>
+        <div class="winner-message"></div>
+    </div>
+    <script src="./gameLogic.js"></script>
+</body>
+
+</html>

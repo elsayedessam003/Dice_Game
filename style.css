@@ -1,0 +1,90 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(to right, #3b0a45, #cc2952);
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.container {
+display: flex;
+align-items: center;
+gap: 1em;
+background: rgba(0, 0, 0, 0.1);
+padding: 2em;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.player {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background: rgba(255, 255, 255, 0.1);
+padding: 1em;
+border-radius: 10px;
+}
+
+.player h2 {
+margin: 0;
+font-size: 2em;
+}
+
+.current-score {
+font-size: 3em;
+margin: 1em 0;
+}
+
+.total-score-box {
+background: rgba(0, 0, 0, 0.2);
+padding: 1rem;
+border-radius: 10px;
+margin-top: auto;
+}
+
+.total-score {
+font-size: 2em;
+}
+
+.dice-controls {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1em;
+}
+
+.dice img {
+width: 100px;
+height: 100px;
+}
+
+.btn {
+padding: 0.5em 1em;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+background: #fff;
+color: #000;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.btn:hover {
+background: #ddd;
+}
+
+.winner-message {
+justify-content: center;
+text-align: center;
+font-size: 2em;
+color: green;
+margin-top: 20px;
+}
